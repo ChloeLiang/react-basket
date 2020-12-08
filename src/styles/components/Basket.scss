@@ -1,0 +1,17 @@
+.Basket {
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+
+  &__title,
+  &__orders,
+  &__order,
+  &__total {
+    margin-bottom: 2rem;
+  }
+
+  &__option:not(:last-child):after {
+    content: ', ';
+  }
+}
